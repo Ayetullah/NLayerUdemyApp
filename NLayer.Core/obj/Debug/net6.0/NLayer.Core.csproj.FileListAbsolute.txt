@@ -1,0 +1,12 @@
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.deps.json
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.AssemblyReference.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfoInputs.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfo.cs
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.CoreCompileInputs.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\refint\NLayer.Core.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Core\obj\Debug\net6.0\ref\NLayer.Core.dll
