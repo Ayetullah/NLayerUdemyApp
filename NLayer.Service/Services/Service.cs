@@ -35,7 +35,7 @@ namespace NLayer.Service.Services
             return _repository.AnyAsync(expression);
         }
 
-        public IQueryable<T> GetAll()
+        public async Task<IQueryable<T>> GetAllAsync()
         {
             return _repository.GetAll();
         }

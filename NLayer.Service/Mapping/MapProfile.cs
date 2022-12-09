@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
-using NLayer.Core.Dtos;
+using NLayer.Core.Dtos.Categories;
+using NLayer.Core.Dtos.ProductFeatures;
+using NLayer.Core.Dtos.Products;
 using NLayer.Core.Models;
 
 namespace NLayer.Service.Mapping
