@@ -13,3 +13,5 @@ D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net6.0\Nlay
 D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net6.0\refint\Nlayer.Repository.dll
 D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net6.0\Nlayer.Repository.pdb
 D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net6.0\ref\Nlayer.Repository.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net6.0\Nlayer.Repository.runtimeconfig.json
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net6.0\Nlayer.Repository.genruntimeconfig.cache
