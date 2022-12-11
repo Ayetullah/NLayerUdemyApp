@@ -68,3 +68,6 @@ D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Humanizer.d
 D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
