@@ -16,6 +16,7 @@ using NLayer.Service.Mapping;
 using NLayer.Service.Services;
 using NLayer.Service.Validations;
 using System.Reflection;
+using NLayer.Caching;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,7 @@ builder.Services.Configure<ApiBehaviorOptions>(opt => {
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMemoryCache();
 
 #region AddScoped
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
@@ -38,7 +40,8 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IProductService, ProductService>();
+//builder.Services.AddScoped<IProductService, ProductService>(); // cahe yapýsý için kaldýrýldý
+builder.Services.AddScoped<IProductService, ProductServiceWithCaching>();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
