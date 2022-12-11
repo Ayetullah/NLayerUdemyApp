@@ -71,3 +71,5 @@ D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\AutoMapper.
 D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
 D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Autofac.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
