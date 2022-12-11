@@ -5,6 +5,7 @@ using Nlayer.Repository.DataContext;
 using Nlayer.Repository.Repositories;
 using Nlayer.Repository.UnitOfWorks;
 using NLayer.API.Filters;
+using NLayer.API.Middlewares;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
@@ -17,8 +18,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers(opt => { opt.Filters.Add(new ValidateFilterAttribute());}).AddFluentValidation(x => 
-    x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+builder.Services.AddControllers(opt => { opt.Filters.Add(new ValidateFilterAttribute()); }).AddFluentValidation(x =>
+    x.RegisterValidatorsFromAssemblyContaining<ProductCreateDtoValidator>());
 builder.Services.Configure<ApiBehaviorOptions>(opt => {
     opt.SuppressModelStateInvalidFilter = true;//Custom Filter ý aktif ettik
 });
@@ -56,6 +57,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCustomException();
 
 app.UseAuthorization();
 
