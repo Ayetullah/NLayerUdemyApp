@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Nlayer.Repository.DataContext;
-using NLayer.Core.Dtos;
 using NLayer.Core.Models;
 using NLayer.Core.Repositories;
 

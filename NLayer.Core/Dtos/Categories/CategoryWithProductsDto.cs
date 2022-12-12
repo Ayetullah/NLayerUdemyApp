@@ -2,7 +2,7 @@
 
 namespace NLayer.Core.Dtos.Categories
 {
-    public class CategoryWithProductsDto:CategoryDto
+    public class CategoryWithProductsDto : CategoryDto
     {
         public List<ProductDto> Products { get; set; }
     }

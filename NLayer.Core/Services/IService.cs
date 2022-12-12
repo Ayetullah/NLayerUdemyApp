@@ -2,7 +2,7 @@
 
 namespace NLayer.Core.Services
 {
-    public interface IService<T> where T:class
+    public interface IService<T> where T : class
     {
         Task<T> GetByIdAsync(int id);
         Task<IQueryable<T>> GetAllAsync();//direk veritabanına sorgu atmamak için IQueryable kullanıldı. tolist vs ile sorgu atılır

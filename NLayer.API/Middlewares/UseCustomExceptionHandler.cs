@@ -20,7 +20,7 @@ namespace NLayer.API.Middlewares
                     {
                         ClientSideException => 400,
                         NotFoundException => 404,
-                        _=> 500
+                        _ => 500
                     };
                     context.Response.StatusCode = statusCode;
                     var response = CustomResponseDto<NoContentDto>.Fail(statusCode, exceptionFeature.Error.Message);

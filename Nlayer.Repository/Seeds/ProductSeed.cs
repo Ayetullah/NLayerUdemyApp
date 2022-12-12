@@ -10,13 +10,14 @@ namespace Nlayer.Repository.Seeds
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasData(
-                new Product {
-                 Id = 1,
-                 CategoryId = 1,
-                 Price = 100,
-                 Stock=20,
-                 CreatedDate = DateTime.Now,
-                 Name="Kalem1"
+                new Product
+                {
+                    Id = 1,
+                    CategoryId = 1,
+                    Price = 100,
+                    Stock = 20,
+                    CreatedDate = DateTime.Now,
+                    Name = "Kalem1"
                 }, new Product
                 {
                     Id = 2,
