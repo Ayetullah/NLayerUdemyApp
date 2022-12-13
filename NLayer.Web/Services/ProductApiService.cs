@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using NLayer.Core.Dtos;
+﻿using NLayer.Core.Dtos;
 using NLayer.Core.Dtos.Products;
-using System.Net.Http.Json;
 
 namespace NLayer.Web.Services
 {

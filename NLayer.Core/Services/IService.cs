@@ -1,18 +1,20 @@
-﻿using System.Linq.Expressions;
+﻿using NLayer.Core.Dtos;
+using NLayer.Core.Models;
+using System.Linq.Expressions;
 
 namespace NLayer.Core.Services
 {
-    public interface IService<T> where T : class
+    public interface IService<Entity, Dto> where Entity : BaseEntity where Dto: class
     {
-        Task<T> GetByIdAsync(int id);
-        Task<IQueryable<T>> GetAllAsync();//direk veritabanına sorgu atmamak için IQueryable kullanıldı. tolist vs ile sorgu atılır
+        Task<CustomResponseDto<Dto>> GetByIdAsync(int id);
+        Task<CustomResponseDto<IEnumerable<Dto>>> GetAllAsync();//direk veritabanına sorgu atmamak için IQueryable kullanıldı. tolist vs ile sorgu atılır
         //productRepository.Where(x => x.Id>5).orderby.tolistasync();
-        IQueryable<T> Where(Expression<Func<T, bool>> expression);
-        Task<bool> AnyAsync(Expression<Func<T, bool>> expression);
-        Task<T> AddAsync(T entity);
-        Task<IEnumerable<T>> AddRangeAsync(IEnumerable<T> entities);
-        Task UpdateAsync(T entity);
-        Task RemoveAsync(T entity);
-        Task RemoveRangeAsync(IEnumerable<T> entities);
+        Task<CustomResponseDto<IEnumerable<Dto>>> Where(Expression<Func<Entity, bool>> expression);
+        Task<CustomResponseDto<bool>> AnyAsync(Expression<Func<Entity, bool>> expression);
+        Task<CustomResponseDto<Dto>> AddAsync(Dto entity);
+        Task<CustomResponseDto<IEnumerable<Dto>>> AddRangeAsync(IEnumerable<Dto> dtos);
+        Task<CustomResponseDto<NoContentDto>> UpdateAsync(Dto dto);
+        Task<CustomResponseDto<NoContentDto>> RemoveAsync(int id);
+        Task<CustomResponseDto<NoContentDto>> RemoveRangeAsync(IEnumerable<int> ids);
     }
 }

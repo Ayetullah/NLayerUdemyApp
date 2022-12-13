@@ -107,5 +107,60 @@ namespace NLayer.Caching
         {
             _memoryCache.Set(_cacheProductKey, await _repository.GetAll().ToListAsync());
         }
+
+        public Task<CustomResponseDto<ProductDto>> AddAsync(ProductCreateDto entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CustomResponseDto<NoContentDto>> UpdateAsync(ProductUpdateDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<CustomResponseDto<List<ProductWithCategoryDto>>> IService<Product, List<ProductWithCategoryDto>>.GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<CustomResponseDto<IEnumerable<List<ProductWithCategoryDto>>>> IService<Product, List<ProductWithCategoryDto>>.GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<CustomResponseDto<IEnumerable<List<ProductWithCategoryDto>>>> IService<Product, List<ProductWithCategoryDto>>.Where(Expression<Func<Product, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<CustomResponseDto<bool>> IService<Product, List<ProductWithCategoryDto>>.AnyAsync(Expression<Func<Product, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CustomResponseDto<List<ProductWithCategoryDto>>> AddAsync(List<ProductWithCategoryDto> entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CustomResponseDto<IEnumerable<List<ProductWithCategoryDto>>>> AddRangeAsync(IEnumerable<List<ProductWithCategoryDto>> dtos)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CustomResponseDto<NoContentDto>> UpdateAsync(List<ProductWithCategoryDto> dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CustomResponseDto<NoContentDto>> RemoveAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CustomResponseDto<NoContentDto>> RemoveRangeAsync(IEnumerable<int> ids)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

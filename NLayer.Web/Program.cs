@@ -21,7 +21,7 @@ builder.Services.AddControllersWithViews().AddFluentValidation(x =>
 #region AddScoped
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>)); // Generic olduðu için bu þekilde eklendi
-builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped(typeof(IService<,>), typeof(Service<,>));
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>(); // cahe yapýsý için kaldýrýldý

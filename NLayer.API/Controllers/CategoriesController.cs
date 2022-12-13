@@ -1,7 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using NLayer.Core.Dtos;
-using NLayer.Core.Dtos.Categories;
+﻿using Microsoft.AspNetCore.Mvc;
 using NLayer.Core.Services;
 
 namespace NLayer.API.Controllers
@@ -9,20 +6,17 @@ namespace NLayer.API.Controllers
     public class CategoriesController : CustomBaseController
     {
         private readonly ICategoryService _categoryService;
-        private readonly IMapper _mapper;
 
-        public CategoriesController(ICategoryService categoryService, IMapper mapper)
+        public CategoriesController(ICategoryService categoryService)
         {
             _categoryService = categoryService;
-            _mapper = mapper;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var categories = await _categoryService.GetAllAsync();
-            var categoryDtos = _mapper.Map<List<CategoryDto>>(categories.ToList());
-            return CreateActionResult(CustomResponseDto<List<CategoryDto>>.Success(200, categoryDtos));
+            return CreateActionResult(categories);
         }
 
         [HttpGet("{id}")]
