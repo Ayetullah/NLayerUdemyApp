@@ -1,0 +1,17 @@
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\NLayer.Service.deps.json
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\NLayer.Service.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\NLayer.Service.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\NLayer.Core.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\Nlayer.Repository.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\Nlayer.Repository.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\bin\Debug\net7.0\NLayer.Core.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.csproj.AssemblyReference.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.AssemblyInfoInputs.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.AssemblyInfo.cs
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.csproj.CoreCompileInputs.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.csproj.CopyComplete
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\refint\NLayer.Service.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\NLayer.Service\obj\Debug\net7.0\ref\NLayer.Service.dll

@@ -1,0 +1,17 @@
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net7.0\Nlayer.Repository.deps.json
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net7.0\Nlayer.Repository.runtimeconfig.json
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net7.0\Nlayer.Repository.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net7.0\Nlayer.Repository.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net7.0\NLayer.Core.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\bin\Debug\net7.0\NLayer.Core.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.csproj.AssemblyReference.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.AssemblyInfoInputs.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.AssemblyInfo.cs
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.csproj.CoreCompileInputs.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.csproj.CopyComplete
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\refint\Nlayer.Repository.dll
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.pdb
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\Nlayer.Repository.genruntimeconfig.cache
+D:\Projects\nArchitecture\NLayerUdemyApp\Nlayer.Repository\obj\Debug\net7.0\ref\Nlayer.Repository.dll
