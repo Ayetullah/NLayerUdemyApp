@@ -1,0 +1,6 @@
+API => {
+	http://localhost:5029
+}
+WEB => {
+	http://localhost:5142
+}

@@ -9,6 +9,7 @@ using NLayer.Core.UnitOfWorks;
 using NLayer.Service.Mapping;
 using NLayer.Service.Services;
 using NLayer.Service.Validations;
+using NLayer.Web.Services;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,6 +38,16 @@ builder.Services.AddDbContext<AppDbContext>(x =>
     {
         opt.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);//AppDbContext in olduðu katmaný bulmasý ve migration ý yapmasýný saðladýk
     });
+});
+
+builder.Services.AddHttpClient<ProductApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUri"]);
+});
+
+builder.Services.AddHttpClient<CategoryApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUri"]);
 });
 
 #region Repo ve service scope bir yerde toplamak için
